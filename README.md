@@ -2,6 +2,16 @@
 
 > Forked from: https://github.com/kitian616/jekyll-TeXt-theme, but customized for personal blog.
 
+## Local two-site prototype
+
+The workspace contains two independent Git repositories: `tanglee-blog/` keeps this blog's posts, theme, assets and history; `../tanglee-academic/` contains the academic homepage and interactive retro desktop.
+
+From this directory, run `bash preview-local.sh` to open the blog at <http://127.0.0.1:4000/>. Start the academic project's preview separately on port 4001. The blog's **Academic** navigation entry preserves the old `/academic/` URL and forwards to the academic homepage; query strings and section anchors are retained.
+
+`_config.local.yml` supplies local URLs and disables analytics during preview. The preview script leaves generated `_site/` files in place on exit. Build locally with `bundle exec jekyll build --config _config.yml,_config.local.yml`.
+
+This prototype has not been pushed. The existing remote, `CNAME`, domain settings and production URL are unchanged; publication is a separate step.
+
 [![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
 [![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
 [![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)

@@ -1,0 +1,6 @@
+# Local prototype: the blog and academic homepage run on separate ports.
+url: http://127.0.0.1:4000
+baseurl: ""
+academic_url: http://127.0.0.1:4001/
+analytics:
+  provider: false

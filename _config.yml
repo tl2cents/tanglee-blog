@@ -192,6 +192,10 @@ exclude:
   - LICENSE
   - README-*.md
   - README.md
+  - _config.local.yml
+  - preview-local.sh
+  - run-local-server.sh
+  - update_blog.sh
   - gulpfile.js
   - jekyll-text-theme.gemspec
   - package-lock.json
