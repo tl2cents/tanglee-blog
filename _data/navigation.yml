@@ -49,7 +49,7 @@ header:
       fr-LU   : *FR
       tr      : &TR       Academic
       # @end locale config
-    url: /academic/
+    url: https://tang.cat/
 
   - titles:
       # @start locale config
